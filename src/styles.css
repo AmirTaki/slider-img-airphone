@@ -51,3 +51,7 @@ header nav a {
 .carousel .list .item:nth-child(n + 6){
     opacity: 0;
 }
+.carousel .list .item:nth-child(2){
+    z-index: 10;
+    transform: translateX(0);
+}   
