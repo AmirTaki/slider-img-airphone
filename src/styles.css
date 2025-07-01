@@ -65,7 +65,16 @@ header nav a {
 }
 
 .carousel .list .item .introduce {
-    background-color: blue;
     opacity: 0;
     pointer-events: none;
+}
+.carousel .list .item:nth-child(2) .introduce {
+    background-color: blue;
+    opacity: 1;
+    pointer-events: auto;
+    width: 400px;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    transition:  opacity .5s;
 }
