@@ -337,3 +337,14 @@ header nav a {
 .carousel.showDetail .list .item:nth-child(2) .detail .checkout{
     animation-delay: 1.6s;
 }
+
+.arrows {
+    position: absolute;
+    bottom: 10px;
+    width: 1140px;
+    max-width: 90%;
+    display: flex;
+    justify-content: space-between;
+    left: 50%;
+    transform: translateX(-50%);
+}
