@@ -272,3 +272,10 @@ header nav a {
     pointer-events: none;
     
 }
+.carousel.showDetail .list .item:nth-child(2){
+    width: 100%;
+}
+.carousel.showDetail .list .item:nth-child(2) .introduce{
+    opacity: 0;
+    pointer-events: none;
+}
