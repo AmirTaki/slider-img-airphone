@@ -161,3 +161,23 @@ header nav a {
     opacity: var(--item5-opacity);
     pointer-events: none;
 }   
+
+/* animation text */
+.carousel .list .item:nth-child(2) .introduce .title, 
+.carousel .list .item:nth-child(2) .introduce .topic, 
+.carousel .list .item:nth-child(2) .introduce .des, 
+.carousel .list .item:nth-child(2) .introduce .seeMore{
+    opacity: 0;
+    animation: showContent .5s 1s ease-in-out 1 forwards;
+} 
+@keyframes showContent {
+    from {
+        transform: translateY(-30px);
+        filter: blur(10px);
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+        filter: blur(0);
+    }
+}
