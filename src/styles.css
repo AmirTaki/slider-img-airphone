@@ -6,10 +6,16 @@ body {
 }
 
 :root{
+    /* item 1 */
     --item1-transrom : translateX(-100%) translateY(-5%) scale(1.5);
     --item1-filter : blur(30px);
     --item1-zIndex : 11;
-    --item1-opacity: 0
+    --item1-opacity: 0;
+    /* item 2 */
+    --item1-transrom : translateX(0);
+    --item1-filter : blur(0);
+    --item1-zIndex : 10;
+    --item1-opacity: 1;
 }
 
 header {
