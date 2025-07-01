@@ -193,6 +193,7 @@ header nav a {
     animation-delay: 1.6s;
 }
 
+/* next */
 .carousel.next .item:nth-child(1){
     animation:  tranformFomPostion2 .5s ease-int-out 1 forwards;
 }
@@ -236,4 +237,8 @@ header nav a {
         filter: var(--item5-filter);
         opacity: var(--item5-opacity);
     }
+}
+/* previus */
+.carousel.prev .list .item:nth-child(5){
+    animation: tranformFomPostion4 .5s ease-in-out 1 forwards;
 }
