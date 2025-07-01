@@ -25,3 +25,10 @@ header nav a {
     color : #555;
     font-weight: 500;
 }
+
+.carousel {
+    position: relative;
+    height: 800px;
+    overflow: hidden;
+    margin-top: -50px;
+}
