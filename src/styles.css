@@ -143,9 +143,14 @@ header nav a {
     pointer-events: none;
 }
 .carousel .list .item:nth-child(3){
-    background-color: red;
     transform: var(--item3-transrom);
     filter: var(--item3-filter);
     z-index: var(--item3-zIndex);
+}
 
+.carousel .list .item:nth-child(4){
+    background-color: blue;
+    transform: var(--item4-transrom);
+    filter: var(--item4-filter);
+    z-index: var(--item4-filter);
 }
