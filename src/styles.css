@@ -21,6 +21,11 @@ body {
     --item3-filter : blur(10px);
     --item3-zIndex : 9;
     --item3-opacity: 1;
+    /* item 4 */
+    --item4-transrom : translate(90%, 20%) scale(.5);
+    --item4-filter : blur(30px);
+    --item4-zIndex : 8;
+    --item4-opacity: 1;
 }
 
 header {
