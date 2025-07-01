@@ -245,3 +245,6 @@ header nav a {
 .carousel.prev .list .item:nth-child(4){
     animation: tranformFomPostion3 .7s ease-in-out 1 forwards;
 }
+.carousel.prev .list .item:nth-child(3){
+    animation: tranformFomPostion2 .9s ease-in-out 1 forwards;
+}
