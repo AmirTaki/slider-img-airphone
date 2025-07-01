@@ -142,3 +142,10 @@ header nav a {
     opacity: var(--item1-opacity);
     pointer-events: none;
 }
+.carousel .list .item:nth-child(3){
+    background-color: red;
+    transform: var(--item3-transrom);
+    filter: var(--item3-filter);
+    z-index: var(--item3-zIndex);
+
+}
