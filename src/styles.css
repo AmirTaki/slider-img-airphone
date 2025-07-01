@@ -180,4 +180,15 @@ header nav a {
         opacity: 1;
         filter: blur(0);
     }
+} 
+.carousel .list .item:nth-child(2) .introduce .topic {
+    animation-delay: 1.2s;
+}
+
+.carousel .list .item:nth-child(2) .introduce .des {
+    animation-delay: 1.4s;
+}
+
+.carousel .list .item:nth-child(2) .introduce .seeMore{
+    animation-delay: 1.6s;
 }
