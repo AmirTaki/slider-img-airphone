@@ -226,3 +226,14 @@ header nav a {
         opacity: var(--item4-opacity);
     }
 }
+.carousel.next .item:nth-child(4){
+    animation:  tranformFomPostion5 1.1s ease-int-out 1 forwards;
+}
+
+@keyframes tranformFomPostion5 {
+    from {
+        transform:  var(--item5-transrom);
+        filter: var(--item5-filter);
+        opacity: var(--item5-opacity);
+    }
+}
