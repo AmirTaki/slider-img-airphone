@@ -279,3 +279,17 @@ header nav a {
     opacity: 0;
     pointer-events: none;
 }
+.carousel.showDetail .list .item:nth-child(2) img{
+    right: 50%;
+}
+
+.carousel.showDetail .list .item:nth-child(2) .detail{
+    opacity: 1;
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: right;
+    pointer-events: auto ;
+}
