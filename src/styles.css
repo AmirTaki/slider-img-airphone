@@ -32,3 +32,11 @@ header nav a {
     overflow: hidden;
     margin-top: -50px;
 }
+.carousel .list {
+    position: absolute;
+    width: 1140px;
+    height: 80%;
+    max-width: 90%;
+    left:50%;
+    transform: translateX(-50%);
+}
