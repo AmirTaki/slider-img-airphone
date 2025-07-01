@@ -192,3 +192,15 @@ header nav a {
 .carousel .list .item:nth-child(2) .introduce .seeMore{
     animation-delay: 1.6s;
 }
+
+.carousel.next .item:nth-child(1){
+    animation:  tranformFomPostion2 .5s ease-int-out 1 forwards;
+}
+
+@keyframes tranformFomPostion2 {
+    from {
+        transform:  var(--item2-transrom);
+        filter: var(--item2-filter);
+        opacity: var(--item2-opacity);
+    }
+}
