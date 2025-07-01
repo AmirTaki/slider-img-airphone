@@ -261,7 +261,14 @@ header nav a {
 
 /* detail */
 .carousel .list .item .detail {
-    background-color: blue;
     opacity: 0;
     pointer-events: none;
+}
+
+.carousel.showDetail .list .item:nth-child(3),
+.carousel.showDetail .list .item:nth-child(4){
+    left:100%;
+    opacity: 0;
+    pointer-events: none;
+    
 }
