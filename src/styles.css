@@ -88,8 +88,19 @@ header nav a {
     font-weight: 500;
 }
 .carousel .list .item .introduce .des {
-        background-color: red;
     font-size: small;
     color : #5559;
 
+}
+
+.carousel .list .item .introduce .seeMore {
+    background-color: transparent;
+    font-family: Poppins;
+    margin-top: 1.2em;
+    padding: 5px 0;
+    border: none;
+    border-bottom: 1px solid #555;
+    font-weight: bold;
+    letter-spacing: 3px;
+    transition: background .5s;
 }
