@@ -40,3 +40,11 @@ header nav a {
     left:50%;
     transform: translateX(-50%);
 }
+.carousel .list .item {
+    position: absolute;
+    left:0;
+    width: 70%;
+    height: 100%;
+    font-size: 15px;
+    transition: left .5s , opacity .5s, width .5s;
+}
