@@ -360,3 +360,24 @@ header nav a {
     bottom: 20%;
     left:10%
 }
+
+#next {
+    left: unset;
+    right: 10%
+}
+
+#back {
+    position: absolute;
+    z-index: 100;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border:none;
+    border-bottom: 1px solid #555;
+    font-family: Poppins;
+    font-weight: bold;
+    letter-spacing: 3px;
+    background-color: 3px;
+    padding: 10px;
+    transition: opacity .5s;
+}
