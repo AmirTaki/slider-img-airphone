@@ -293,3 +293,10 @@ header nav a {
     text-align: right;
     pointer-events: auto ;
 }
+.carousel.showDetail .list .item:nth-child(2) .detail .specifictions{
+    display: flex;
+    gap:10px;
+    width: 100%;
+    border-top: 1px solid #5553;
+    margin-top: 20px;
+}
