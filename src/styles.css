@@ -135,3 +135,10 @@ header nav a {
 .carousel .list .item .introduce .seeMore:hover {
     background: #eee;
 }
+.carousel .list .item:nth-child(1){
+    transform: var(--item1-transrom);
+    filter: var(--item1-filter);
+    z-index: var(--item1-zIndex);
+    opacity: var(--item1-opacity);
+    pointer-events: none;
+}
