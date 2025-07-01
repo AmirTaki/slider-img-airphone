@@ -84,7 +84,12 @@ header nav a {
     line-height: 1em;
 }
 .carousel .list .item .introduce .topic {
-    background-color: red;
     font-size: 4em;
     font-weight: 500;
+}
+.carousel .list .item .introduce .des {
+        background-color: red;
+    font-size: small;
+    color : #5559;
+
 }
