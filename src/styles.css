@@ -215,3 +215,14 @@ header nav a {
         opacity: var(--item3-opacity);
     }
 }
+.carousel.next .item:nth-child(3){
+    animation:  tranformFomPostion4 .9s ease-int-out 1 forwards;
+}
+
+@keyframes tranformFomPostion4 {
+    from {
+        transform:  var(--item4-transrom);
+        filter: var(--item4-filter);
+        opacity: var(--item4-opacity);
+    }
+}
