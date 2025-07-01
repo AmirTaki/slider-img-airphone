@@ -12,8 +12,12 @@ prevButton.addEventListener('click' , (e)=> {
     showSlider('back')
 })
 
+let unAcceppClick;
 const showSlider = (type) => {
+    nextButton.style.pointerEvents = "none"
+    prevButton.style.pointerEvents = "none"
     let items = document.querySelectorAll(".item")
+    carousel.classList.remove('next', 'prev')
     if(type == "next"){
         listHTML.appendChild(items[0])
         carousel.classList.add('next')
@@ -22,4 +26,10 @@ const showSlider = (type) => {
         listHTML.prepend(items[items.length - 1])
         carousel.classList.add('prev')
     }
+    clearTimeout(unAcceppClick)
+    unAcceppClick  = setTimeout(()=> {
+ 
+        nextButton.style.pointerEvents = "auto"
+        prevButton.style.pointerEvents = "auto"
+    }, 2000)
 }
