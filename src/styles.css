@@ -69,7 +69,7 @@ header nav a {
     pointer-events: none;
 }
 .carousel .list .item:nth-child(2) .introduce {
-    background-color: blue;
+   
     opacity: 1;
     pointer-events: auto;
     width: 400px;
@@ -77,4 +77,10 @@ header nav a {
     top:50%;
     transform: translateY(-50%);
     transition:  opacity .5s;
+}
+.carousel .list .item .introduce .title {
+    background-color: blue;
+    font-size: 2em;
+    font-weight: 500;
+    line-height: 1em;
 }
