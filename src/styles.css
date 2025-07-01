@@ -258,3 +258,10 @@ header nav a {
         opacity: var(--item1-opacity);
     }
 }
+
+/* detail */
+.carousel .list .item .detail {
+    background-color: blue;
+    opacity: 0;
+    pointer-events: none;
+}
